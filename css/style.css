@@ -141,3 +141,11 @@ nav li a{
     font-size: 16px;
     font-weight: 500;
 }
+/* offer styles */
+.offer{
+    margin-bottom: 140px;
+}
+.offer-card{
+    display: flex;
+    gap: 20px;
+}
