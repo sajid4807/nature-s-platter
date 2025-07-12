@@ -20,6 +20,9 @@
 .primary-font{
     font-family:'sora', serif, arial;
 }
+.primary-bg{
+    background-color:  #efebe3;
+}
 .primary-color{
     color: #111111;
 }
@@ -78,7 +81,10 @@ nav li a{
 }
 /* services styles */
 .services-title{
-    margin: 120px 0 30px 0;
+    margin-top: 120px;
+}
+.heading{
+    margin-bottom: 30px;
     font-size: 36px;
     font-weight: 600;
 }
@@ -96,4 +102,42 @@ nav li a{
     font-weight: 600;
     font-size: 24px;
     margin: 20px 0 12px 0;
+}
+/* products styles */
+.products{
+    margin: 140px 0;
+    padding: 130px 0 120px;
+}
+.products-card{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 23px 50px;
+}
+.products-child{
+    display: flex;
+    padding: 16px 30px 16px 16px ;
+    background-color: #fff;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 10px;
+}
+.products-rating{
+    display: inline-block;
+}
+.product-img{
+    margin-right: 16px;
+}
+.star-icon{
+    margin-right: 11px;
+}
+.products-rating{
+    font-size: 16px;
+}
+.products-title{
+    font-weight: 500;
+    font-size: 18px;
+    margin: 8px 0;
+}
+.products-price{
+    font-size: 16px;
+    font-weight: 500;
 }
