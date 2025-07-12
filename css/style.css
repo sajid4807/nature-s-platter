@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sora:wght@100..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+.btn-primary{
+    padding: 10px 30px;
+    font-family: 'sora';
+    font-size: 20px;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #179800;
+    border: none;
+}
+.primary-font{
+    font-family:'sora', serif, arial;
+}
+/* navbar styles */
+header{
+    background: linear-gradient(180deg, #fff 0%, #efebe3 100%);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .nav-logo{
+    margin-top: 24px;
+    /* margin-right: 200px; */
+}
+nav ul li{
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    gap: 32px;
+    /* margin-right: 111px; */
+
+}
+nav li a{
+    text-decoration: none;
+    color: #111111;
+    font-family: 'sora';
+    font-size: 24px;
+}
+.nav-icon-btn img{
+    margin-right: 24px;
+}
+.btn-primary.outline{
+    color: #111111;
+    background-color: transparent;
+    border: 1px solid #179800;
+    margin-right: 12px;
+}
+.banner{
+    text-align: center;
+}
+.banner .banner-title{
+    font-weight: 600;
+    font-size: 56px;
+    color: #111111;
+    margin: 110px 0 25px 0;
+}
+.banner .banner-title span{
+    color: #179800;
+}
+.banner .banner-description{
+    font-size: 20px;
+    color: #111111;
+}
