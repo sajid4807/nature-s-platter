@@ -186,3 +186,39 @@ nav li a{
 .grocery-card form input[type="button"]{
     margin-top: 38px;
 }
+/* footer styles */
+footer{
+    background-color: #179800;
+}
+.footer-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 330px 0 110px;
+}
+.footer-card .description{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 11px;
+}
+.footer-card li{
+    list-style: none;
+    margin-top: 32px;
+
+}
+.footer-card li a{
+    text-decoration: none;
+    color: #efebe3;
+}
+.footer-card .social{
+    font-size: 16px;
+    font-weight: 500;
+    color: #efebe3;
+    margin-bottom: 20px;
+}
+.footer-social-icon{
+    display: flex;
+}
+.footer-social-icon a{
+    margin-right: 30px;
+}
